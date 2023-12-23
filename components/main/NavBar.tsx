@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from "next/image"
-import { Socials } from '@/constants'
 
 const NavBar = () => {
     return (
@@ -21,17 +20,33 @@ const NavBar = () => {
                 </div>
 
                 <div className="flex flex-row gap-5">
-                    {Socials.map((social) => (
-                        <a href={social.external} target='_blank' key={social.name}>
-                            <Image
-                                src={social.src}
-                                alt={social.name}
-                                key={social.name}
-                                width={24}
-                                height={24}
-                            />
-                        </a>
-                    ))}
+                    <a href="https://github.com/Roesnware" target='_blank'>
+                        <Image
+                            src="/gitwhite.png"
+                            alt="Github"
+                            key="Github"
+                            width={24}
+                            height={24}
+                        />
+                    </a>
+                    <a href="https://www.linkedin.com/in/trae-roy-815a02244/" target='_blank'>
+                        <Image
+                            src="/linkedin-app-white-icon.webp"
+                            alt="LinkedIn"
+                            key="LinkedIn"
+                            width={24}
+                            height={24}
+                        />
+                    </a>
+                    <a href="#contact-me" target='_blank'>
+                        <Image
+                            src="/discord-white.png"
+                            alt="Discord"
+                            key="Discord"
+                            width={24}
+                            height={24}
+                        />
+                    </a>
                 </div>
             </div>
         </div>
