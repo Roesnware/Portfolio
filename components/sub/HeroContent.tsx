@@ -42,7 +42,7 @@ const HeroContent = () => {
                 <motion.p className='text-lg text-gray-400 my-5 max-w-[600px]' variants={slideInFromLeft(0.8)}>
                     I&apos;m a Full Stack Web Developer with experience in building responsive/modern websites and Software Development. I am based in Orlando FL, pursuing a BS degree in CS/Math at UCF, I also recently graduated a full stack web development bootcamp hosted by EdX and UCF. I enjoy anime, gaming and coding of course! Check out my projects and skills below!
                 </motion.p>
-                <motion.a href="https://docs.google.com/document/d/10HnVw37nmQGEuXQ6pZO8Jv-xo-MWcIaV/edit?usp=sharing&ouid=112394118034878282068&rtpof=true&sd=true" download="TraeRoy_Resume.pdf" target="_blank" className='py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]' variants={slideInFromLeft(1)}>
+                <motion.a href="https://docs.google.com/document/d/1wFL_bemseaIXkCJi6B2A3uAakp562h70ASdHX7czYDE/edit?usp=sharing" download="TraeRoy_Resume.pdf" target="_blank" className='py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]' variants={slideInFromLeft(1)}>
                     View Resume
                 </motion.a>
             </div>
