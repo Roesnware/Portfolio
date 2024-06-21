@@ -25,19 +25,19 @@ const Projects = () => {
                     srcCode="https://github.com/cpicha20/SMG"
                     liveSite="https://share-my-game-566086c3c183.herokuapp.com/"
                 />
-                <ProjectCard 
-                src="wheeliodemo.JPG" 
-                title="Wheel.io" 
-                description="This is Wheel.io, the console wheel picker, an engaging Python application that utilizes the Pygame library to create a simulation of a virtual spinning wheel. The primary function of this application is to select a random option from a predefined list of choices, similar to a prize wheel, my main inspiration whilst doing this project is that game and movie nights have less hassle because we can put our options to the wheel. This project combines elements of game development, graphical interface design, and randomization techniques to provide a fun and useful tool for decision making."
-                srcCode="https://github.com/Roesnware/wheel.io_py"
-                liveSite=""
-                />
                 <ProjectCard
                     src="/tech-ss.JPG"
                     title="Tech Blog"
                     description="Introducing our cutting-edge tech blog application - your gateway to the latest in technology trends, innovations, and insights. Dive into a dynamic platform offering curated articles, expert opinions, and in-depth analysis across diverse tech spheres. Seamlessly navigate through a user-friendly interface, discover comprehensive reviews, stay updated on industry breakthroughs, and engage with a vibrant community of tech enthusiasts. Elevate your tech knowledge and stay ahead in the ever-evolving digital landscape with our immersive and informative tech blog application."
                     srcCode="https://github.com/Roesnware/tech_blog"
                     liveSite="https://blogpost-ucfbootcamp-133682c41872.herokuapp.com/"
+                />
+                <ProjectCard 
+                src="wheeliodemo.JPG" 
+                title="Wheel.io" 
+                description="This is Wheel.io, the console wheel picker, an engaging Python application that utilizes the Pygame library to create a simulation of a virtual spinning wheel. The primary function of this application is to select a random option from a predefined list of choices, similar to a prize wheel, my main inspiration whilst doing this project is that game and movie nights have less hassle because we can put our options to the wheel. This project combines elements of game development, graphical interface design, and randomization techniques to provide a fun and useful tool for decision making."
+                srcCode="https://github.com/Roesnware/wheel.io_py"
+                liveSite=""
                 />
             </div>
         </div>
